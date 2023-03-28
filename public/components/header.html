@@ -85,45 +85,57 @@
         </div>
 
         <div class="bg-white px-4 py-5 sm:px-6">
-            <div class="flex items-center justify-between">
-                <h3 class="text-lg leading-6 font-medium text-gray-900">
-                    Header Option 3
-                </h3>
-                <button onclick="copyCode('#code-3')" class="bg-gray-200 hover:bg-gray-300 px-3 py-1 rounded-lg text-gray-800">
-                    Copy Code
-                </button>
+            <div onclick="copyCode('#code-3')" class="flex items-center justify-between">
+                <div id="code-3" class="mt-2 bg-gray-100 p-2 rounded-lg text-gray-800">                    
+                    <div class="container my-24 px-6 mx-auto">
+                        <section class="mb-32 text-gray-800 background-radial-gradient">
+                            <style>
+                                .background-radial-gradient {
+                                background-color: hsl(218, 41%, 15%);
+                                background-image: radial-gradient(650px circle at 0% 0%,
+                                    hsl(218, 41%, 35%) 15%,
+                                    hsl(218, 41%, 30%) 35%,
+                                    hsl(218, 41%, 20%) 75%,
+                                    hsl(218, 41%, 19%) 80%,
+                                    transparent 100%),
+                                    radial-gradient(1250px circle at 100% 100%,
+                                    hsl(218, 41%, 45%) 15%,
+                                    hsl(218, 41%, 30%) 35%,
+                                    hsl(218, 41%, 20%) 75%,
+                                    hsl(218, 41%, 19%) 80%,
+                                    transparent 100%);
+                                }
+                            </style>
+
+                            <div class="px-6 py-4 md:px-12 text-center lg:text-left">
+                                <div class="container mx-auto">
+                                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                                    <div class="mt-12 lg:mt-0">
+                                        <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+                                            style="color: hsl(218, 81%, 95%)">
+                                            Are you ready <br /><span style="color: hsl(218, 81%, 75%)">for an adventure?</span>
+                                        </h1>
+                                        <p class="text-lg" style="color: hsl(218, 81%, 95%)">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia consequatur
+                                            adipisci tenetur repudiandae rerum quos.
+                                        </p>
+                                    </div>
+                                    <div class="mb-12 lg:mb-0">
+                                        <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-lg"
+                                            style="padding-top: 56.25%">
+                                            <iframe class="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
+                                            src="https://www.youtube.com/embed/vlDzYIIOYmM?enablejsapi=1&amp;origin=https%3A%2F%2Fmdbootstrap.com"
+                                            allowfullscreen="" data-gtm-yt-inspected-2340190_699="true" id="240632615"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </div>
-            <div id="code-3" class="mt-2 bg-gray-100 p-2 rounded-lg text-gray-800">
-                &lt;nav class="bg-gray-800 p-4"&gt;
-                <br>
-                &nbsp;&nbsp;&lt;div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 flex justify-between items-center"&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="relative flex items-center justify-between w-full"&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flex-1 w-full flex items-center justify-between sm:items-stretch sm:justify-start"&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flex justify-center align-middle items-center"&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="./index.html" class="flex-shrink-0 text-white font-bold"&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;𝐴𝑢𝑟𝑜𝑟𝑎 𝐶𝑜𝑚𝐾𝑖𝑡
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/a&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="bg-gray-900 text-white py-2 px-4 rounded-lg shadow-md"&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="../components.html" class="font-medium hover:text-gray-300"&gt;🡰&lt;/a&gt;
-                <br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;
-                <br>
-                &nbsp;&nbsp;&lt;/div&gt;
-                <br>
-                &lt;/nav&gt;
-            </div>
+            
         </div>
 
     </section>
