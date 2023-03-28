@@ -1,10 +1,12 @@
-function copyCode(selector) {
-    const code = document.querySelector(selector).innerText.trim();
-    navigator.clipboard.writeText(code);
-    const button = document.querySelector('[onclick="copyCode(\'' + selector + '\')"]');
-    const originalText = button.innerText;
-    button.innerText = 'Copied!';
-    setTimeout(function() {
-        button.innerText = originalText;
-    }, 2000);
-}
+function copyCode(id) {
+    const el = document.querySelector(id);
+    const codeBlock = el.querySelector("section").outerHTML;
+    
+    navigator.clipboard.writeText(codeBlock).then(function() {
+      alert("Code copied to clipboard!");
+    }, function() {
+      alert("Error copying code to clipboard.");
+    });
+  }
+  
+  
