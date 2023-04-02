@@ -32,11 +32,23 @@
             </div>        
         </nav>
         
-        <div class="bg-white p-4 rounded-lg shadow-xl">            
-            <div onclick="copyCode('#code-1')" class="flex flex-col md:flex-row">              
+        <h1 class="text-4xl text-center uppercase my-4">Header Blocks</h1>
+
+        <div class="bg-white p-4 rounded-lg shadow-xl">
+            <!-- copy to clipboard -->
+            <div class="flex justify-end bg-gray-300 p-3 hover:bg-gray-800 hover:text-white transition-colors duration-300">
+                <button id="copy-btn" onclick="copyCode('#code-1')" class="bg-slate-400 text-white hover:bg-slate-600 transition-colors duration-300 px-3 py-2 rounded-md flex items-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9l-5-5-5 5M17 9l0 13-12 0 0-13M7 15l5 5 5-5"></path>
+                  </svg>
+                  Copy Code
+                </button>
+            </div>
+                        
+            <div class="flex flex-col md:flex-row">              
               <div id="code-1" class="w-full bg-gray-100 p-4 rounded-lg text-gray-800">                 
                     <div class="container my-4 px-6 mx-auto">                
-                        <section class="mb-32 text-gray-800 text-center lg:text-left">
+                        <section class="mb-3 text-gray-800 text-center lg:text-left">
                             <div class="grid lg:grid-cols-2 gap-6 xl:gap-12 items-center">
                                 <div class="mb-6 lg:mb-0">
                                 <h2 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight">
@@ -59,12 +71,22 @@
         </div>
 
         <div class="bg-white px-4 py-5 sm:px-6">
-            <div onclick="copyCode('#code-2')" class="flex items-center justify-between">                
-                <div id="code-2" class="mt-2 w-full bg-gray-100 p-2 rounded-lg text-gray-800">                    
-                    <div class="container my-24 px-6 mx-auto">
-                        <section class="mb-32 text-gray-800 text-center lg:text-left">                          
+            <!-- copy to clipboard -->
+            <div class="flex justify-end bg-gray-300 p-3 hover:bg-gray-800 hover:text-white transition-colors duration-300">
+                <button id="copy-btn" onclick="copyCode('#code-2')" class="bg-slate-400 text-white hover:bg-slate-600 transition-colors duration-300 px-3 py-2 rounded-md flex items-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9l-5-5-5 5M17 9l0 13-12 0 0-13M7 15l5 5 5-5"></path>
+                  </svg>
+                  Copy Code
+                </button>
+            </div>
+
+            <div class="flex items-center justify-between">                
+                <div id="code-2" class="w-full bg-gray-100 p-2 rounded-lg text-gray-800">                    
+                    <div class="container px-6 mx-auto">
+                        <section class="mb-3 text-gray-800 text-center lg:text-left">                          
                             <div class="container my-24 px-6 mx-auto">
-                                <section class="mb-32 text-gray-800 text-center">
+                                <section class="mb-3 text-gray-800 text-center">
                                     <div class="flex items-center flex-col justify-center">                                        
                                         <h2 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                                             Are you ready <br />
@@ -85,10 +107,20 @@
         </div>
 
         <div class="bg-white px-4 py-5 sm:px-6">
-            <div onclick="copyCode('#code-3')" class="flex items-center justify-between">
-                <div id="code-3" class="mt-2 bg-gray-100 p-2 rounded-lg text-gray-800">                    
-                    <div class="container my-24 px-6 mx-auto">
-                        <section class="mb-32 text-gray-800 background-radial-gradient">
+            <!-- copy to clipboard -->
+            <div class="flex justify-end bg-gray-300 p-3 hover:bg-gray-800 hover:text-white transition-colors duration-300">
+                <button id="copy-btn" onclick="copyCode('#code-3')" class="bg-slate-400 text-white hover:bg-slate-600 transition-colors duration-300 px-3 py-2 rounded-md flex items-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9l-5-5-5 5M17 9l0 13-12 0 0-13M7 15l5 5 5-5"></path>
+                  </svg>
+                  Copy Code
+                </button>
+            </div>
+
+            <div class="flex items-center justify-between">
+                <div id="code-3" class="bg-gray-100 p-2 rounded-lg text-gray-800">                    
+                    <div class="container my-6 px-6 mx-auto">
+                        <section class="mb-3 text-gray-800 background-radial-gradient">
                             <style>
                                 .background-radial-gradient {
                                 background-color: hsl(218, 41%, 15%);
