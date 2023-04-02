@@ -1,6 +1,6 @@
 function copyCode(id) {
     const el = document.querySelector(id);
-    const codeBlock = el.querySelector("section").outerHTML;
+    const codeBlock = el.querySelector("section").innerHTML;
     
     navigator.clipboard.writeText(codeBlock).then(function() {
       alert("Code copied to clipboard!");
