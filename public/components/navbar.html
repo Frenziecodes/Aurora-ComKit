@@ -32,26 +32,53 @@
             </div>        
         </nav>
         
-        <div class="bg-white p-4 rounded-lg shadow-xl">            
-            <div onclick="copyCode('#code-1')" class="flex flex-col md:flex-row">              
+        <div class="bg-white p-4 rounded-lg shadow-xl"> 
+             <!-- copy to clipboard -->
+             <div class="flex justify-end bg-slate-300 p-3 hover:bg-gray-800 hover:text-white transition-colors duration-300">
+                <button id="copy-btn" onclick="copyCode('#code-1')" class="bg-slate-400 text-white hover:bg-slate-600 transition-colors duration-300 px-3 py-2 rounded-md flex items-center">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9l-5-5-5 5M17 9l0 13-12 0 0-13M7 15l5 5 5-5"></path>
+                  </svg>
+                  Copy Code
+                </button>
+            </div>
+
+            <div class="flex flex-col md:flex-row">              
               <div id="code-1" class="w-full bg-gray-100 p-4 rounded-lg text-gray-800">                 
                     <div class="container my-4 px-6 mx-auto">                
-                        <section class="mb-32 text-gray-800 text-center lg:text-left">
-                            <div class="grid lg:grid-cols-2 gap-6 xl:gap-12 items-center">
-                                <div class="mb-6 lg:mb-0">
-                                <h2 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight">
-                                    Are you ready <br />
-                                    <span class="text-blue-600">for an adventure?</span>
-                                </h2>
-                                </div>
-                                <div class="mb-6 lg:mb-0">
-                                <p class="uppercase text-blue-600 font-bold mb-4">Learn more</p>
-                                <p class="text-gray-500 text-lg">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officia consequatur
-                                    adipisci tenetur repudiandae rerum quos.
-                                </p>
-                                </div>
+                        <section class="mb-3 text-gray-800 text-center">
+                            <!-- add this to load hamburger menu on small screens -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                            <div class="bg-gray-800 px-2 text-white">
+                                <div class="container mx-auto flex flex-col md:flex-row justify-between items-center py-4">
+                                    <div class="flex justify-between w-full px-1">
+                                        <a href="" class="text-xl font-bold">Aurora</a>
+                                        <button class="text-white block sm:hidden" onclick="myFunction()">
+                                            <i class="fa fa-bars"></i>
+                                        </button>
+                                    </div>
+                                  
+                                    <nav class="hidden sm:block w-full text-right" id="myNav">
+                                        <a href="" class="block mt-4 sm:inline-block sm:mt-0 mx-4 text-lg font-medium">Home</a>
+                                        <a href="" class="block mt-4 sm:inline-block sm:mt-0 mx-4 text-lg font-medium">News</a>
+                                        <a href="" class="block mt-4 sm:inline-block sm:mt-0 mx-4 text-lg font-medium">Contact</a>                                        
+                                    </nav>
+                                                                       
+                                </div>                             
+                              
+                              <script>
+                                function myFunction() {
+                                  var x = document.getElementById("myNav");
+                                  if (x.classList.contains("hidden")) {
+                                    x.classList.remove("hidden");
+                                  } else {
+                                    x.classList.add("hidden");
+                                  }
+                                }
+                              </script>
                             </div>
+                              
                         </section> 
                     </div>
               </div>
