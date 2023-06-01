@@ -7,88 +7,58 @@
         <meta name="keywords" content="aurora comkit, website design, web development, tailwindcss, components, user experience">
         <meta name="author" content="Lewis Ushindi">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Navbar-Aurora ComKit</title>
+        <title>Aurora ComKit</title>
         <link rel="shortcut icon" href="https://i.pinimg.com/474x/ea/a8/b1/eaa8b1a091b211a141bbefe0e054f42b.jpg" type="image/x-icon">
         <link rel="stylesheet" href="./css/app.css">
         <script src="https://cdn.tailwindcss.com"></script>
         <link href="/dist/output.css" rel="stylesheet">
-    </head> 
+    </head>    
 <body>
-    <section>
-        <nav class="bg-gray-800 p-4">
+    <section class="flex flex-col min-h-screen ">
+
+        <!-- navbar -->
+        <nav class="bg-gray-800 p-4 h-20 justify-center items-center">
             <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 flex justify-between items-center">
                 <div class="relative flex items-center justify-between w-full">
                     <div class="flex-1 w-full flex items-center justify-between sm:items-stretch sm:justify-start">                    
                         <div class="flex justify-center align-middle items-center">
-                            <a href=""  class="flex-shrink-0 text-white font-bold text-2xl">
-                              𝐴𝑢𝑟𝑜𝑟𝑎 𝐶𝑜𝑚𝐾𝑖𝑡
+                            <a href="/index.html" class="flex-shrink-0 text-white font-bold text-2xl">
+                                𝐴𝑢𝑟𝑜𝑟𝑎 𝐶𝑜𝑚𝐾𝑖𝑡
                             </a>
                         </div>                    
                     </div>                
                 </div>
-                <div class="bg-gray-900 text-white py-2 px-4 rounded-lg shadow-md">
-                    <a href="../components.html" class="font-medium hover:text-gray-300 text-2xl">🡰</a>
+                <div class="bg-gray-900 py-2 px-4 flex justify-center items-center text-white rounded-lg shadow-md">
+                    <a href="https://github.com/Frenziecodes/Aurora-ComKit" type="button" class="m-1  rounded-full uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0" data-te-ripple-init data-te-ripple-color="light">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg" class="mx-auto h-5 w-5"  fill="currentColor" viewBox="0 0 24 24"> <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    </a>
                 </div>
             </div>        
         </nav>
+            
+        <!-- header page -->
+        <div class="container my-12 px-6 mx-auto">            
+            <section class="mb-12 text-gray-800 text-center">
+                <div class="flex justify-center">
+                    <div class="max-w-[800px]">
+                        <h2 class="text-4xl md:text-5xl xl:text-6xl font-bold tracking-tight mb-12">
+                            Build beautiful interfaces with ease. <br />
+                            <div class="mt-8 text-blue-600">Get started with 𝐴𝑢𝑟𝑜𝑟𝑎 𝐶𝑜𝑚𝐾𝑖𝑡.</div>
+                        </h2>
+                        
+                        <p class="mt-4 text-gray-500 text-lg">
+                            Welcome to Aurora ComKit, your ultimate resource for free UI components built with Tailwind CSS. Our collection of components can help you save time and effort in developing your next project, so you can focus on what matters most – creating amazing user experiences. Browse our library of components and discover a world of possibilities.
+                        </p>                    
         
-        <h1 class="text-4xl text-center uppercase my-4">Navbar Blocks</h1>
-
-        <div class="bg-white p-4 rounded-lg shadow-xl"> 
-            <!-- copy to clipboard -->
-            <div class="flex justify-end bg-gray-800 p-3 hover:bg-gray-700 hover:text-white transition-colors duration-300">
-                <button id="copy-btn" onclick="copyCode('#code-1')" class="bg-slate-600 text-white hover:bg-slate-900 transition-colors duration-300 px-3 py-2 rounded-md flex items-center">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9l-5-5-5 5M17 9l0 13-12 0 0-13M7 15l5 5 5-5"></path>
-                  </svg>
-                  Copy Code
-                </button>
-            </div>
-
-            <div class="flex flex-col md:flex-row">              
-              <div id="code-1" class="w-full bg-gray-100 p-4 rounded-lg text-gray-800">                 
-                    <div class="container my-4 px-6 mx-auto">                
-                        <section class="mb-3 text-gray-800 text-center">
-                            <!-- add this to load hamburger menu on small screens -->
-                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-                            <div class="bg-gray-800 px-2 text-white">
-                                <div class="container mx-auto flex flex-col md:flex-row justify-between items-center py-4">
-                                    <div class="flex justify-between w-full px-1">
-                                        <a href="" class="text-xl font-bold">Aurora</a>
-                                        <button class="text-white block sm:hidden" onclick="myFunction()">
-                                            <i class="fa fa-bars"></i>
-                                        </button>
-                                    </div>
-                                  
-                                    <nav class="hidden sm:block w-full text-center md:text-right" id="myNav">
-                                      <a href="" class="block mt-4 sm:inline-block sm:mt-0 mx-4 text-lg font-medium hover:text-gray-800 hover:bg-gray-200 transition duration-300 ease-in-out px-3 py-2 rounded-lg">Home</a>
-                                      <a href="" class="block mt-4 sm:inline-block sm:mt-0 mx-4 text-lg font-medium hover:text-gray-800 hover:bg-gray-200 transition duration-300 ease-in-out px-3 py-2 rounded-lg">News</a>
-                                      <a href="" class="block mt-4 sm:inline-block sm:mt-0 mx-4 text-lg font-medium hover:text-gray-800 hover:bg-gray-200 transition duration-300 ease-in-out px-3 py-2 rounded-lg">Contact</a>                                        
-                                   </nav>
-                                                               
-                                </div>                             
-                              
-                                <script>
-                                  function myFunction() {
-                                      var navElement = document.getElementById("myNav");
-                                      if (navElement.classList.contains("hidden")) {
-                                          navElement.classList.remove("hidden");
-                                      } else {
-                                          navElement.classList.add("hidden");
-                                      }
-                                  }
-                              </script>
-                              
-                            </div>
-                              
-                        </section> 
+                        <a href="./public/components.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full mt-16 inline-block">Explore Components</a>
                     </div>
-              </div>
-            </div>
-        </div>      
-        
-        <footer class="bg-neutral-900 text-center text-white">
+                </div>
+            </section>      
+        </div>    
+        <!-- end of header page -->
+        <footer class="bg-neutral-900 text-center text-white mt-auto">
             <div class="container px-6 pt-6 mx-auto">
               <div class="mb-6 flex justify-center">
                           
@@ -109,7 +79,7 @@
                 </a>                                
                                           
                 <a
-                  href="https://github.com/lewisushindi/Aurora-ComKit"
+                  href="https://github.com/Frenziecodes/Aurora-ComKit"
                   type="button"
                   class="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
                   data-te-ripple-init
@@ -130,13 +100,13 @@
               class="p-4 text-center"
               style="background-color: rgba(0, 0, 0, 0.2)">
               © 2023 Copyright:
-              <a class="text-whitehite" href="https://github.com/lewisushindi/Aurora-ComKit"
+              <a class="text-whitehite" href="https://github.com/Frenziecodes/Aurora-ComKit"
                 >Aurora ComKit</a
               >
             </div>
         </footer>
-     </section>
-    
- <script src="../js/app.js"></script>
+        
+    </section>
+    <script src="./js/app.js"></script>
 </body>
 </html>
