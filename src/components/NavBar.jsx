@@ -3,7 +3,7 @@ import Toggle from "./Toggle";
 
 function Navbar(){
     return(
-        <nav className="bg-white shadow-md w-full p-3 h-16 justify-center items-center">
+        <nav className="bg-white fixed top-0 right-0 left-0 pl-52 shadow-md w-full p-3 h-16 justify-center items-center">
             <div className="px-2 sm:px-6 lg:px-8 flex justify-between items-center">
                 <SearchBar/>
                 <div className="flex justify-center items-center">

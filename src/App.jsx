@@ -1,8 +1,8 @@
-import Navigation from "./components/Navigation"
+import Home from "./pages/Home"
 function App() {
   return (
-    <section>       
-      <Navigation/>
+    <section>
+      <Home/>
     </section>
   )
 }
