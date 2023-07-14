@@ -1,17 +1,10 @@
+import SearchBar from "./Search";
 
 function Navbar(){
     return(
-        <nav className="bg-gray-800 p-4 h-20 justify-center items-center">
+        <nav className="bg-white shadow-md w-full p-4 h-20 justify-center items-center">
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 flex justify-between items-center">
-            <div className="relative flex items-center justify-between w-full">
-                <div className="flex-1 w-full flex items-center justify-between sm:items-stretch sm:justify-start">                    
-                    <div className="flex justify-center align-middle items-center">
-                        <a href="/" className="flex-shrink-0 text-white font-bold text-2xl">
-                            𝐴𝑢𝑟𝑜𝑟𝑎 𝐶𝑜𝑚𝐾𝑖𝑡
-                        </a>
-                    </div>                    
-                </div>                
-            </div>
+            <SearchBar/>
             <div className="bg-gray-900 py-2 px-4 flex justify-center items-center text-white rounded-lg shadow-md">
                 <a href="https://github.com/Frenziecodes/Aurora-ComKit" type="button" className="m-1  rounded-full uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0" data-te-ripple-init data-te-ripple-color="light">
                 <svg

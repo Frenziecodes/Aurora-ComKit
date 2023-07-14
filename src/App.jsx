@@ -1,13 +1,9 @@
-import Navbar from "./components/NavBar"
-import Header from "./section/Header"
-import AuroraFooter from "./components/Footer"
+import Navigation from "./components/Navigation"
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Header/>
-    <AuroraFooter/>
-    </>
+    <section>       
+      <Navigation/>
+    </section>
   )
 }
 
