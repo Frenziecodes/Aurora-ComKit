@@ -5,7 +5,7 @@ function SideNav() {
             <h3 className="flex-shrink-0 text-gray-800 font-bold text-xl mb-10">Aurora ComKit</h3>
             
             <Link to="/" className="my-4 w-full">
-                <div className="bg-gray-200 p-1 hover:bg-gray-400 hover:text-gray-800 rounded-sm">               
+                <div className="p-1 hover:bg-gray-200 hover:text-gray-800 rounded-sm">               
                     Get Started
                 </div>
             </Link>
