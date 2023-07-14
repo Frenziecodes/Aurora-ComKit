@@ -1,5 +1,5 @@
-import SideNav from "./SideNav";
-import Navbar from "./NavBar";
+import SideNav from "../components/SideNav";
+import Navbar from "../components/NavBar";
 import Header from "../section/Header";
 function Home() {
     return (
