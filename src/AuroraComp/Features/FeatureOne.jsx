@@ -13,7 +13,7 @@ function FeatureOne() {
                   <div className="flex justify-center">
                     <div className="text-center max-w-[700px]">
                       <h2 className="text-3xl font-bold mb-6 text-center">
-                        Why is it so<u className="text-blue-600"> great?</u>
+                        Why is it so <u className="text-blue-600"> great?</u>
                       </h2>
                       <p className="text-gray-500 mb-12">
                         Minus fuga aliquid vero facere ducimus quos, quisquam nemo? Molestias ullam provident
