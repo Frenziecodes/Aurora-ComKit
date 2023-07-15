@@ -51,14 +51,14 @@ function SideNav() {
 
       {dropdownOpen && (
         <div className="ml-2">
-          <Link to="/Contribute/Component1" className="block my-2 hover:text-gray-800">
-            Component 1
+          <Link to="/AuroraHeaders" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
+            Headers
           </Link>
-          <Link to="/Contribute/Component2" className="block my-2 hover:text-gray-800">
-            Component 2
+          <Link to="/AuroraHeaders" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
+            Pricing
           </Link>
-          <Link to="/Contribute/Component3" className="block my-2 hover:text-gray-800">
-            Component 3
+          <Link to="/AuroraFeatures" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
+            Features
           </Link>
         </div>
       )}
