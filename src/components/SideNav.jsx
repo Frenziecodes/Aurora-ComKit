@@ -9,6 +9,12 @@ function SideNav() {
                     Get Started
                 </div>
             </Link>
+
+            <Link to="/Contribute" className="my-4 w-full">
+                <div className="p-1 hover:bg-gray-200 hover:text-gray-800 rounded-sm">               
+                    Contribute
+                </div>
+            </Link>
           
         </section>
     )
