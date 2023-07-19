@@ -5,6 +5,7 @@ import Contribute from './pages/Contribute';
 import AuroraHeaders from './AuroraComp/Headers';
 import AuroraFeatures from './AuroraComp/Features';
 import AuroraPricing from './AuroraComp/Pricing';
+import AuroraCta from './AuroraComp/Cta';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/AuroraHeaders' element={<AuroraHeaders/>} />
           <Route path='/AuroraFeatures' element={<AuroraFeatures/>} />
           <Route path='/AuroraPricing' element={<AuroraPricing/>} />
+          <Route path='/AuroraCta' element={<AuroraCta/>} />
         </Routes>
       </Layout>
     </BrowserRouter>
