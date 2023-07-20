@@ -63,6 +63,9 @@ function SideNav() {
           <Link to="/AuroraCta" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
             Cta
           </Link>
+          <Link to="/AuroraFaq" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
+            Faq
+          </Link>
         </div>
       )}
 

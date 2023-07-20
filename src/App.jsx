@@ -6,6 +6,7 @@ import AuroraHeaders from './AuroraComp/Headers';
 import AuroraFeatures from './AuroraComp/Features';
 import AuroraPricing from './AuroraComp/Pricing';
 import AuroraCta from './AuroraComp/Cta';
+import AuroraFaq from './AuroraComp/Faq';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/AuroraFeatures' element={<AuroraFeatures/>} />
           <Route path='/AuroraPricing' element={<AuroraPricing/>} />
           <Route path='/AuroraCta' element={<AuroraCta/>} />
+          <Route path='/AuroraFaq' element={<AuroraFaq/>} />
         </Routes>
       </Layout>
     </BrowserRouter>
