@@ -18,6 +18,9 @@ function CompLinks(){
         <Link to="/AuroraFaq" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
           Faq
         </Link>
+        <Link to="/AuroraFooter" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
+          Footer
+        </Link>
       </div>
     )
 }
