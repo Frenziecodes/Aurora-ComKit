@@ -9,6 +9,9 @@ import AuroraCta from './AuroraComp/Cta';
 import AuroraFaq from './AuroraComp/Faq';
 import AuroraFooter from './AuroraComp/Footer';
 import AuroraForm from './AuroraComp/Form';
+import AuroraNav from './AuroraComp/Nav';
+import AuroraTeam from './AuroraComp/Team';
+import AuroraTestimonial from './AuroraComp/Testimonial';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path='/AuroraFaq' element={<AuroraFaq/>} />
           <Route path='/AuroraFooter' element={<AuroraFooter/>} />
           <Route path='/AuroraForm' element={<AuroraForm/>} />
+          <Route path='/AuroraNav' element={<AuroraNav/>} />
+          <Route path='/AuroraTeam' element={<AuroraTeam/>} />
+          <Route path='/AuroraTestimonial' element={<AuroraTestimonial/>} />
         </Routes>
       </Layout>
     </BrowserRouter>
