@@ -21,6 +21,9 @@ function CompLinks(){
         <Link to="/AuroraFooter" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
           Footer
         </Link>
+        <Link to="/AuroraForm" className="block my-2 hover:bg-gray-200 px-6 rounded-md hover:text-gray-800">
+          Form
+        </Link>
       </div>
     )
 }

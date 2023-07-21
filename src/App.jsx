@@ -8,6 +8,7 @@ import AuroraPricing from './AuroraComp/Pricing';
 import AuroraCta from './AuroraComp/Cta';
 import AuroraFaq from './AuroraComp/Faq';
 import AuroraFooter from './AuroraComp/Footer';
+import AuroraForm from './AuroraComp/Form';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/AuroraCta' element={<AuroraCta/>} />
           <Route path='/AuroraFaq' element={<AuroraFaq/>} />
           <Route path='/AuroraFooter' element={<AuroraFooter/>} />
+          <Route path='/AuroraForm' element={<AuroraForm/>} />
         </Routes>
       </Layout>
     </BrowserRouter>
