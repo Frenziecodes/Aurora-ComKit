@@ -12,7 +12,7 @@ function Contribute() {
 
         <h3 className="text-2xl md:text-3xl font-bold mb-4">Reporting Issues</h3>
         <p className="text-lg text-gray-600 mb-6">
-          If you encounter any bugs, issues, or have feature requests, please report them on our GitHub repository. Include
+          If you encounter any bugs, issues, or have feature requests, please report them on our <a href="https://github.com/Frenziecodes/Aurora-ComKit/issues" className="underline">GitHub repository.</a>  Include
           detailed information about the problem, steps to reproduce it, and any relevant code snippets or screenshots.
         </p>
 
@@ -22,7 +22,7 @@ function Contribute() {
           follow these steps:
         </p>
         <ol className="text-lg text-gray-600 text-left mb-6">
-          <li>Fork the Aurora ComKit repository on GitHub.</li>
+          <li>Fork the Aurora ComKit <a href="https://github.com/Frenziecodes/Aurora-ComKit" className="underline">repository</a> on GitHub.</li>
           <li>Create a new branch for your changes.</li>
           <li>Make your changes, ensuring that your code follows the project's coding style.</li>
           <li>Commit and push your changes to your forked repository.</li>
