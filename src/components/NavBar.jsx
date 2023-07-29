@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import SearchBar from "./Search";
-import Toggle from "./Toggle";
+// import SearchBar from "./Search";
+// import Toggle from "./Toggle";
 
 function Navbar() {
   const [latestVersion, setLatestVersion] = useState("");
@@ -20,11 +20,11 @@ function Navbar() {
 
   return (
     <nav className="bg-white fixed top-0 right-0 left-0 pl-52 shadow-md w-full p-3 h-16 justify-center items-center">
-      <div className="px-2 sm:px-6 lg:px-8 flex justify-between items-center">
-        <SearchBar />
+      <div className="px-2 sm:px-6 lg:px-8 flex justify-end items-center">
+        {/* <SearchBar /> */}
         <div className="flex justify-center items-center">
           <h3 className="text-base font-light mx-2">v{latestVersion}</h3>
-          <Toggle />
+          {/* <Toggle /> */}
           <a
             href="https://github.com/Frenziecodes/Aurora-ComKit"
             type="button"
