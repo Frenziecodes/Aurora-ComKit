@@ -19,19 +19,80 @@ function Header() {
           </p>         
 
           <div className="mt-6">
-            <h5 className="text-lg font-semibold mb-2">Installation for HTML/CSS:</h5>
+            <h5 className="text-lg font-semibold mb-2">Installation for HTML:</h5>            
             <pre className="bg-gray-100 p-2 rounded-md">
               <code className="text-gray-700">
-                npm install tailwindcss
-                <br />
-                <br />
-                npx tailwindcss init --full
+              <ol className="border-l border-neutral-300 dark:border-neutral-500">
+            <li>
+                <div className="flex-start flex items-center pt-3">
+                <div
+                    className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
+                    <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                    Install Tailwind CSS via npm
+                    </p>
+                </div>
+                <div className="mb-6 ml-4 mt-2">               
+                <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                    npm install -D tailwindcss
+                    <br />
+                    <br />
+                    npx tailwindcss init
+                </p>
+                </div>
+            </li>
+            <li>
+                <div className="flex-start flex items-center pt-2">
+                <div
+                    className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
+                    <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                    Configure your template paths.
+                    </p>
+                </div>
+                <div className="mb-6 ml-4 mt-2">
+                <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                    Add the paths to all of your template files in your tailwind.config.js file
+                </p>
+                </div>
+            </li>
+            <li>
+                <div className="flex-start flex items-center pt-2">
+                <div
+                    className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
+                    <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                        Add the Tailwind directives to your CSS
+                    </p>
+                </div>
+                <div className="ml-4 mt-2 pb-5">
+                <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                    @tailwind base;                    
+                    <br />
+                    @tailwind utilities;
+                    <br />
+                    @tailwind components;
+                </p>
+                </div>
+            </li>
+            <li>
+                <div className="flex-start flex items-center pt-2">
+                <div
+                    className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
+                    <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                        Start the Tailwind CLI build process.
+                    </p>
+                </div>
+                <div className="ml-4 mt-2 pb-5">
+                <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+                </p>
+                </div>
+            </li>
+            </ol>
               </code>
             </pre>
           </div>
 
           <div className="mt-6">
-            <h5 className="text-lg font-semibold mb-2">Installation for JavaScript (React, Vue, etc.):</h5>
+            <h5 className="text-lg font-semibold mb-2">Installation for JavaScript frameworks:</h5>
             <pre className="bg-gray-100 p-2 rounded-md">
               <code className="text-gray-700">
                 npm install tailwindcss
