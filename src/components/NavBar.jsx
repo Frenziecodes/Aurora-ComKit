@@ -23,7 +23,7 @@ function Navbar() {
       <div className="px-2 sm:px-6 lg:px-8 flex justify-end items-center">
         {/* <SearchBar /> */}
         <div className="flex justify-center items-center">
-          <h3 className="text-base font-light mx-2">v{latestVersion}</h3>
+          <h3 className="text-base font-light mx-2">{latestVersion}</h3>
           {/* <Toggle /> */}
           <a
             href="https://github.com/Frenziecodes/Aurora-ComKit"
