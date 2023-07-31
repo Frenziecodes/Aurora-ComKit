@@ -6,7 +6,7 @@ Aurora ComKit is a comprehensive library of user interface components and design
 ## Usage
 
 <br/>
-Aurora ComKit is built using TailwindCSS, a utility-first CSS framework. All components are designed to be used by copying the code and pasting it into your HTML files. No additional files need to be installed.
+Aurora ComKit is built using TailwindCSS and ReactJs. All components are designed to be used by copying the code and pasting it into your HTML files. No additional files need to be installed.
 To use a component, simply copy the code snippet from the Aurora ComKit website and paste it into your HTML file. You can customize the component by changing the classes or adding your own styles.
 For more information on how to use TailwindCSS, please refer to the official documentation.
 <br/>
